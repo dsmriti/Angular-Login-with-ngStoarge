@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Testing</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
+
+    <!--<script src="https://use.fontawesome.com/5791732b39.js"></script>-->
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/controller/main.js"></script>
+    <script src="js/controller/register.js"></script>
+    <script src="js/controller/home.js"></script>
+    <script src="js/controller/login.js"></script>
+</head>
+<body ng-app="myApp">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Student Portal</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/#/register">Register</a></li>
+            <li><a href="/#/login">Login</a></li>
+            <li ><a href="/#/home" >Home</a></li>
+            <li><a href="/#/profile">Profile</a></li>
+            <li><a href="/#/notes">Notes</a></li>
+
+        </ul>
+    </div>
+</nav>
+<ng-view>
+    <div class="jumbotron">
+        <h1>Hello, User Name...!</h1>
+        <p>Welcome to Student Portal. You can download notes from as well as upload your notes for other. You can edit
+        your profile in profile section.</p>
+    </div>
+</ng-view>
+<footer class="container-fluid bg-4 text-center">
+    <p>Student Portal </p>
+</footer>
+
+
+</body>
+</html>
