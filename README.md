@@ -10,7 +10,7 @@ Check this Url -> https://github.com/gsklee/ngStorage
 From this url can install by bower/npm package or simply use the cdn link.
 
 STEP 3:
-Here,there will be 5 pages :
+Here,there will be 4 pages :
 
 1) Register- user will register himself
 
