@@ -11,8 +11,12 @@ From this url can install by bower/npm package or simply use the cdn link.
 
 STEP 3:
 Here,there will be 5 pages :
+
 1) Register- user will register himself
+
 2)Login - user will login 
+
 3)Home- This will be displayed only after the user will login.
+
 4)Profile- Here user can change password and update his details.
 
